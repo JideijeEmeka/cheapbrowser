@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+        <item
+            android:title="Tabs"
+            android:icon="@drawable/ic_baseline_tab_24"
+            app:showAsAction="always"/>
+        <item
+            android:title="New tab"
+            android:icon="@drawable/ic_baseline_tab_24"
+            app:showAsAction="withText"/>
+        <item
+            android:title="New incognito tab"
+            android:icon="@drawable/ic_baseline_tab_unselected_24"
+            app:showAsAction="withText"/>
+        <item
+            android:title="Bookmarks"
+            android:icon="@drawable/ic_baseline_tab_24"
+            app:showAsAction="withText"
+            android:onClick="NewTab"/>
+        <item
+            android:title="Recent tabs"
+            android:icon="@drawable/ic_baseline_tab_unselected_24"
+            app:showAsAction="withText"/>
+        <item
+            android:title="History"
+            android:icon="@drawable/ic_baseline_tab_24"
+            app:showAsAction="withText"
+            android:onClick="NewTab"/>
+        <item
+            android:title="Downloads"
+            android:icon="@drawable/ic_baseline_tab_unselected_24"
+            app:showAsAction="withText"/>
+        <item
+            android:title="Share..."
+            android:icon="@drawable/ic_baseline_tab_24"
+            app:showAsAction="withText"
+            android:onClick="NewTab"/>
+        <item
+            android:title="Add to Home Screen"
+            android:icon="@drawable/ic_baseline_tab_unselected_24"
+            app:showAsAction="withText"/>
+        <item
+            android:title="Desktop Site"
+            android:icon="@drawable/ic_baseline_tab_24"
+            app:showAsAction="withText"
+            android:checkable="true"
+            android:onClick="NewTab"/>
+        <item
+            android:title="Settings"
+            android:icon="@drawable/ic_baseline_tab_unselected_24"
+            app:showAsAction="withText"/>
+
+</menu>
